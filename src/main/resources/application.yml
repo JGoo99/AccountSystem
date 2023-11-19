@@ -1,5 +1,6 @@
-spring.datasource.url=jdbc:mariadb://localhost:3306/accountdb
-spring.datasource.username=accountuser
-spring.datasource.password=acc
-spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
-??: https://7942yongdae.tistory.com/128 [??? ??:????]
+spring:
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/accountdb
+    username: accountuser
+    password: acc

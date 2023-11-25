@@ -243,7 +243,7 @@ class AccountServiceTest {
 
   @Test
   @DisplayName("계좌 소유주가 다름 - 계좌 해지 실패")
-  void deleteAccount_user_accountUnMatch() {
+  void deleteAccount_userAccountUnMatch() {
     // given
     AccountUser user = AccountUser.builder().id(12L).name("Pobi").build();
     AccountUser user2 = AccountUser.builder().id(13L).name("Rupi").build();

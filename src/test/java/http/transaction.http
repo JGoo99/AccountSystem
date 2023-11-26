@@ -13,7 +13,10 @@ POST http://localhost:8080/transaction/cancel
 Content-Type: application/json
 
 {
-  "transactionId":"9b8067a0b64f45bea748ec1a38b295ec",
+  "transactionId":"6b5f990a338f48a198a6f7c640d51eb2",
   "accountNumber":"1000000000",
   "amount":6000
 }
+
+### query transaction
+GET http://localhost:8080/transaction/1b50ca7caa054103880d91f2a1a983e5

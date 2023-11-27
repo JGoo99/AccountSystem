@@ -13,7 +13,7 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "accountNumber": "1000000003"
+  "accountNumber": "1000000000"
 }
 
 ### get accounts

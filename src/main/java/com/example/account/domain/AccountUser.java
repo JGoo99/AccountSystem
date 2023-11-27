@@ -14,16 +14,7 @@ import java.time.LocalDateTime;
 @RequiredArgsConstructor
 @Builder
 @Entity
-@EntityListeners(AuditingEntityListener.class)
-public class AccountUser {
-  @Id
-  @GeneratedValue
-  private Long id;
+public class AccountUser extends BaseEntity {
 
   private String name;
-
-  @CreatedDate
-  private LocalDateTime createdAt;
-  @LastModifiedDate
-  private LocalDateTime updatedAt;
 }
